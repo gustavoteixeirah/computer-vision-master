@@ -1,0 +1,4 @@
+movieName = "The Shining"
+actors=["Jack Nicholson", "Shelley Duvall", "Danny Lloyd", "Scatman Crothers", "Barry Nelson"]
+scores=[4.5,4.0,5.0]
+comments=["Best Horror Film I Have Ever Seen", "A truly brilliant and scary film from Stanley Kubrick", "A masterpiece of psychological horror"]
