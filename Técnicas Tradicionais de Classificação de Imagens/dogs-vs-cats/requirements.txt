@@ -16,11 +16,15 @@ executing==2.0.1
     # via stack-data
 fonttools==4.50.0
     # via matplotlib
+imageio==2.34.2
+    # via scikit-image
 ipykernel==6.29.3
 ipython==8.22.2
     # via ipykernel
 jedi==0.19.1
     # via ipython
+joblib==1.4.2
+    # via scikit-learn
 jupyter-client==8.6.1
     # via ipykernel
 jupyter-core==5.7.2
@@ -29,31 +33,48 @@ jupyter-core==5.7.2
     #   jupyter-client
 kiwisolver==1.4.5
     # via matplotlib
+lazy-loader==0.4
+    # via scikit-image
 matplotlib==3.8.3
+    # via seaborn
 matplotlib-inline==0.1.6
     # via
     #   ipykernel
     #   ipython
 nest-asyncio==1.6.0
     # via ipykernel
+networkx==3.3
+    # via scikit-image
 numpy==1.26.4
     # via
     #   contourpy
+    #   imageio
     #   matplotlib
     #   opencv-python
     #   pandas
+    #   scikit-image
+    #   scikit-learn
+    #   scipy
+    #   seaborn
+    #   tifffile
 opencv-python==4.9.0.80
 packaging==24.0
     # via
     #   ipykernel
+    #   lazy-loader
     #   matplotlib
+    #   scikit-image
 pandas==2.2.1
+    # via seaborn
 parso==0.8.3
     # via jedi
 pexpect==4.9.0
     # via ipython
 pillow==10.2.0
-    # via matplotlib
+    # via
+    #   imageio
+    #   matplotlib
+    #   scikit-image
 platformdirs==4.2.0
     # via jupyter-core
 prompt-toolkit==3.0.43
@@ -79,12 +100,23 @@ pyzmq==25.1.2
     # via
     #   ipykernel
     #   jupyter-client
+scikit-image==0.24.0
+scikit-learn==1.5.1
+scipy==1.14.0
+    # via
+    #   scikit-image
+    #   scikit-learn
+seaborn==0.13.2
 six==1.16.0
     # via
     #   asttokens
     #   python-dateutil
 stack-data==0.6.3
     # via ipython
+threadpoolctl==3.5.0
+    # via scikit-learn
+tifffile==2024.7.24
+    # via scikit-image
 tornado==6.4
     # via
     #   ipykernel
